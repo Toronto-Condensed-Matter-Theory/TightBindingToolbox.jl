@@ -1,7 +1,7 @@
-# TightBindingToolbox.Params
+# TightBindingToolkit.Params
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.Parameters]
+Modules = [TightBindingToolkit, TightBindingToolkit.Parameters]
 Private = false
 Pages = ["Params.jl"]
 ```

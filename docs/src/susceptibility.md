@@ -1,7 +1,7 @@
-# TightBindingToolbox.susceptibility
+# TightBindingToolkit.susceptibility
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.suscep]
+Modules = [TightBindingToolkit, TightBindingToolkit.suscep]
 Private = false
 Pages   = ["Susceptibility.jl"]
 ```

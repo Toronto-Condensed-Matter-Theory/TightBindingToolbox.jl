@@ -1,4 +1,4 @@
-using Plots, LinearAlgebra, LaTeXStrings, TightBindingToolbox
+using Plots, LinearAlgebra, LaTeXStrings, TightBindingToolkit
 
 ##### Triangle lattice
 const a1  =   [ 0.5, sqrt(3)/2]

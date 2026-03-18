@@ -3,9 +3,9 @@ module ExpandUCell
 
     using LinearAlgebra
 
-    using ..TightBindingToolbox.Useful: Meshgrid
-    using ..TightBindingToolbox.UCell: Bond, UnitCell, GetRealSpacePositions, AddBasisSite!, IsSameBond, FlipBond
-    using ..TightBindingToolbox.DesignUCell: AddAnisotropicBond!
+    using ..TightBindingToolkit.Useful: Meshgrid
+    using ..TightBindingToolkit.UCell: Bond, UnitCell, GetRealSpacePositions, AddBasisSite!, IsSameBond, FlipBond
+    using ..TightBindingToolkit.DesignUCell: AddAnisotropicBond!
 
 
 @doc """

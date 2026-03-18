@@ -1,9 +1,9 @@
 module Chern
     export FindLinks , FieldStrength , ChernNumber, CheckValidity, PartialChernNumber, FilledChernNumber, OccupiedChernNumber, KuboChern
 
-    using ..TightBindingToolbox.Hams:Hamiltonian, IsBandGapped, GetVelocity!
-    using ..TightBindingToolbox.Useful: DistFunction
-    using ..TightBindingToolbox.BZone:BZ
+    using ..TightBindingToolkit.Hams:Hamiltonian, IsBandGapped, GetVelocity!
+    using ..TightBindingToolkit.Useful: DistFunction
+    using ..TightBindingToolkit.BZone:BZ
 
     using LinearAlgebra
 

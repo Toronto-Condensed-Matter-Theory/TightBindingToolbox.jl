@@ -1,6 +1,6 @@
-using Plots, LinearAlgebra, LaTeXStrings#, TightBindingToolbox
-include("../src/TightBindingToolbox.jl")
-using .TightBindingToolbox
+using Plots, LinearAlgebra, LaTeXStrings#, TightBindingToolkit
+include("../src/TightBindingToolkit.jl")
+using .TightBindingToolkit
 
 ##### Triangle lattice
 const a1  =   [ 0.5, sqrt(3)/2]

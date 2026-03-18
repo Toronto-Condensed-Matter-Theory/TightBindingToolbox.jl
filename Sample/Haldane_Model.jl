@@ -1,4 +1,4 @@
-using Plots, LinearAlgebra, LaTeXStrings, TightBindingToolbox
+using Plots, LinearAlgebra, LaTeXStrings, TightBindingToolkit
 
 """
 This script sets up the famous Haldane Model on a honeycomb lattice, and finds it chern numbers.

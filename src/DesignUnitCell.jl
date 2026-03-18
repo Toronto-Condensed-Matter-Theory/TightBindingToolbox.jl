@@ -3,8 +3,8 @@ module DesignUCell
 
     using LinearAlgebra, Logging
 
-    using ..TightBindingToolbox.Useful: GetAllOffsets
-    using ..TightBindingToolbox.UCell: Bond, BondRank, UnitCell, IsSameBond
+    using ..TightBindingToolkit.Useful: GetAllOffsets
+    using ..TightBindingToolkit.UCell: Bond, BondRank, UnitCell, IsSameBond
 
 
 @doc """

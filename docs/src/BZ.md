@@ -1,7 +1,7 @@
-# TightBindingToolbox.BZ
+# TightBindingToolkit.BZ
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.BZone]
+Modules = [TightBindingToolkit, TightBindingToolkit.BZone]
 Private = false
 Pages   = ["BZ.jl"]
 ```

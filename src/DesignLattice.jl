@@ -4,9 +4,9 @@ module DesignLattice
 
     using LinearAlgebra, Logging
 
-    using ..TightBindingToolbox.UCell: Bond, UnitCell
-    using ..TightBindingToolbox.Parameters: Param, CreateUnitCell!, ModifyUnitCell!
-    using ..TightBindingToolbox.LatticeStruct: Lattice, FillLattice!
+    using ..TightBindingToolkit.UCell: Bond, UnitCell
+    using ..TightBindingToolkit.Parameters: Param, CreateUnitCell!, ModifyUnitCell!
+    using ..TightBindingToolkit.LatticeStruct: Lattice, FillLattice!
 
 
 @doc """

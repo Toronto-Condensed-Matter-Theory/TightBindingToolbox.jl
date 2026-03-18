@@ -1,15 +1,15 @@
 module BdG
     export BdGModel, FindFilling, GetMu!, GetFilling!, GetGk!, GetGr!, SolveModel!, GetGap!, FreeEnergy, FindEntropy, GetRSEnergy
 
-    using ..TightBindingToolbox.Useful: DistFunction, DeriDistFunction, BinarySearch, FFTArrayofMatrix
-    using ..TightBindingToolbox.UCell: UnitCell
-    using ..TightBindingToolbox.DesignUCell: ModifyIsotropicFields!, Lookup
-    using ..TightBindingToolbox.BZone:BZ, MomentumPhaseFFT
-    using ..TightBindingToolbox.Hams:Hamiltonian, ModifyHamiltonianField!
+    using ..TightBindingToolkit.Useful: DistFunction, DeriDistFunction, BinarySearch, FFTArrayofMatrix
+    using ..TightBindingToolkit.UCell: UnitCell
+    using ..TightBindingToolkit.DesignUCell: ModifyIsotropicFields!, Lookup
+    using ..TightBindingToolkit.BZone:BZ, MomentumPhaseFFT
+    using ..TightBindingToolkit.Hams:Hamiltonian, ModifyHamiltonianField!
 
     using LinearAlgebra, Tullio, TensorCast, Logging, Statistics
 
-    import ..TightBindingToolbox.TBModel:FindFilling, GetMu!, GetFilling!, GetGk!, GetGr!, SolveModel!, GetGap!, FreeEnergy, FindEntropy, GetRSEnergy, GetBondCoorelation
+    import ..TightBindingToolkit.TBModel:FindFilling, GetMu!, GetFilling!, GetGk!, GetGr!, SolveModel!, GetGap!, FreeEnergy, FindEntropy, GetRSEnergy, GetBondCoorelation
 
 @doc """
     `BdGModel` is a data type representing a general Tight Binding system with pairing.

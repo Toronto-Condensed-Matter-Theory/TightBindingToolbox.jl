@@ -1,7 +1,7 @@
-# TightBindingToolbox.Model
+# TightBindingToolkit.Model
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.PlotTB]
+Modules = [TightBindingToolkit, TightBindingToolkit.PlotTB]
 Private = false
 Pages   = ["Plot.jl"]
 ```

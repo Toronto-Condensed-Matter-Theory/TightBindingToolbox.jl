@@ -2,11 +2,11 @@ module TBModel
 
     export Model , FindFilling , GetMu! , GetFilling! , GetCount , GetGk! , GetGr!, SolveModel!, GetGap!, FreeEnergy, GetOrderParameter, FindEntropy, GetRSEnergy, GetBondCoorelation
 
-    using ..TightBindingToolbox.Useful: Meshgrid, DistFunction, DeriDistFunction, FFTArrayofMatrix, BinarySearch
-    using ..TightBindingToolbox.UCell: UnitCell, Bond
-    using ..TightBindingToolbox.BZone: BZ, MomentumPhaseFFT
-    using ..TightBindingToolbox.Parameters: Param
-    using ..TightBindingToolbox.Hams:Hamiltonian
+    using ..TightBindingToolkit.Useful: Meshgrid, DistFunction, DeriDistFunction, FFTArrayofMatrix, BinarySearch
+    using ..TightBindingToolkit.UCell: UnitCell, Bond
+    using ..TightBindingToolkit.BZone: BZ, MomentumPhaseFFT
+    using ..TightBindingToolkit.Parameters: Param
+    using ..TightBindingToolkit.Hams:Hamiltonian
 
     using LinearAlgebra, Logging, Statistics
 

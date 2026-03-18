@@ -3,11 +3,11 @@ module conduct
 
     using LinearAlgebra, Logging
 
-    using ..TightBindingToolbox.SpinMatrices:SpinMats
-    using ..TightBindingToolbox.Useful: DistFunction, DeriDistFunction
-    using ..TightBindingToolbox.Hams: GetVelocity!
-    using ..TightBindingToolbox.BZone:BZ, GetQIndex
-    using ..TightBindingToolbox.TBModel:Model
+    using ..TightBindingToolkit.SpinMatrices:SpinMats
+    using ..TightBindingToolkit.Useful: DistFunction, DeriDistFunction
+    using ..TightBindingToolkit.Hams: GetVelocity!
+    using ..TightBindingToolkit.BZone:BZ, GetQIndex
+    using ..TightBindingToolkit.TBModel:Model
 
     directions = ["x" , "y" , "z"]
 

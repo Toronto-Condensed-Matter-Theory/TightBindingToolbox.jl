@@ -3,8 +3,8 @@ module UCell
 
 	using LinearAlgebra, Logging
 
-	using ..TightBindingToolbox.SpinMatrices: HermitianBasis
-	using ..TightBindingToolbox.Useful: GetAllOffsets
+	using ..TightBindingToolkit.SpinMatrices: HermitianBasis
+	using ..TightBindingToolkit.Useful: GetAllOffsets
 
 @doc """
 `Bond{T}` is a data type representing a general bond on a lattice.

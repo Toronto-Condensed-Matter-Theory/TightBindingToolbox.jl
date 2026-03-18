@@ -1,23 +1,23 @@
-# TightBindingToolbox
+# TightBindingToolkit
 
-[![Build Status](https://https://github.com/Toronto-Condensed-Matter-Theory/TightBindingToolbox.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://https://github.com/Toronto-Condensed-Matter-Theory/TightBindingToolbox.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://https://github.com/Toronto-Condensed-Matter-Theory/TightBindingToolkit.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://https://github.com/Toronto-Condensed-Matter-Theory/TightBindingToolkit.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-TightBindingToolbox.jl is a Julia package meant for constructing, and obtaining useful properties of generic tight-binding models. It supports any lattice structure, with any user-defined bonds on that lattice. It also has support for any spin of the particle hopping on the lattice. It is an updated version of the [TightBindingToolkit.jl](https://github.com/Anjishnubose/TightBindingToolkit.jl)
+TightBindingToolkit.jl is a Julia package meant for constructing, and obtaining useful properties of generic tight-binding models. It supports any lattice structure, with any user-defined bonds on that lattice. It also has support for any spin of the particle hopping on the lattice.
 ## Install
 In the Julia REPL, Push "]" to enter the package mode.
 ```julia
-add TightBindingToolbox
+add TightBindingToolkit
 ```
 Or equivalently
 ```julia
 using Pkg
-Pkg.add("TightBindingToolbox")
+Pkg.add("TightBindingToolkit")
 ```
 
 Until the package is registered in the General registry, install via URL:
 ```julia
 using Pkg
-Pkg.add(url="https://https://github.com/Toronto-Condensed-Matter-TheoryTightBindingToolbox.jl")
+Pkg.add(url="https://https://github.com/Toronto-Condensed-Matter-TheoryTightBindingToolkit.jl")
 ```
 
 ## Features
@@ -56,4 +56,4 @@ Currently supported :
 * Real-sapce lattice construction with arbitrary boundary condition. (v2.1)
 
 ## Documentation
-For more details, please see [Documentation](https://Toronto-Condensed-Matter-Theory.github.io/TightBindingToolbox.jl/dev/)
+For more details, please see [Documentation](https://Toronto-Condensed-Matter-Theory.github.io/TightBindingToolkit.jl/dev/)

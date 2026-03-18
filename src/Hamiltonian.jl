@@ -1,11 +1,11 @@
 module Hams
     export Hamiltonian , FillHoppingHamiltonian, FillPairingHamiltonian, FillHamiltonian , DiagonalizeHamiltonian! , DOS, ModifyHamiltonianField!, IsBandGapped, GetVelocity!
 
-    using ..TightBindingToolbox.Useful: Central_Diff, Arrayfy, DeArrayfy
-    using ..TightBindingToolbox.SpinMatrices:SpinMats
-    using ..TightBindingToolbox.UCell:Bond, UnitCell, IsSameUnitCell
-    using ..TightBindingToolbox.DesignUCell: ModifyFields!, ModifyIsotropicFields!
-    using ..TightBindingToolbox.BZone:BZ
+    using ..TightBindingToolkit.Useful: Central_Diff, Arrayfy, DeArrayfy
+    using ..TightBindingToolkit.SpinMatrices:SpinMats
+    using ..TightBindingToolkit.UCell:Bond, UnitCell, IsSameUnitCell
+    using ..TightBindingToolkit.DesignUCell: ModifyFields!, ModifyIsotropicFields!
+    using ..TightBindingToolkit.BZone:BZ
 
     using LinearAlgebra, TensorCast, Logging
 

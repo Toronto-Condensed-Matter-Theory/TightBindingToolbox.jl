@@ -2,12 +2,12 @@ module LatModel
 
     export LatticeModel , GetMu! , GetFilling! , GetGr!, SolveModel!, GetGap!
 
-    using ..TightBindingToolbox.Useful: Meshgrid, DistFunction, DeriDistFunction, FFTArrayofMatrix, BinarySearch
-    using ..TightBindingToolbox.LatticeStruct: Lattice
-    using ..TightBindingToolbox.LatHam: LatticeHamiltonian
-    using ..TightBindingToolbox.TBModel: FindFilling, GetCount
+    using ..TightBindingToolkit.Useful: Meshgrid, DistFunction, DeriDistFunction, FFTArrayofMatrix, BinarySearch
+    using ..TightBindingToolkit.LatticeStruct: Lattice
+    using ..TightBindingToolkit.LatHam: LatticeHamiltonian
+    using ..TightBindingToolkit.TBModel: FindFilling, GetCount
 
-    import ..TightBindingToolbox.TBModel: GetMu!, GetFilling!, GetGr!, SolveModel!, GetGap!
+    import ..TightBindingToolkit.TBModel: GetMu!, GetFilling!, GetGr!, SolveModel!, GetGap!
 
 
     mutable struct LatticeModel

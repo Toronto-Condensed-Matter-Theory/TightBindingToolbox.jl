@@ -1,10 +1,10 @@
 module Parameters
     export Param, AddAnisotropicBond!, AddIsotropicBonds!, AddSimilarBonds! , CreateUnitCell!, ModifyUnitCell!, GetParams, Lookup
 
-    using ..TightBindingToolbox.Useful: GetAllOffsets
-    using ..TightBindingToolbox.UCell: Bond, UnitCell, IsSameBond
-    using ..TightBindingToolbox.DesignUCell: RemoveBonds!
-    import ..TightBindingToolbox.DesignUCell: AddAnisotropicBond!, AddIsotropicBonds!, Lookup
+    using ..TightBindingToolkit.Useful: GetAllOffsets
+    using ..TightBindingToolkit.UCell: Bond, UnitCell, IsSameBond
+    using ..TightBindingToolkit.DesignUCell: RemoveBonds!
+    import ..TightBindingToolkit.DesignUCell: AddAnisotropicBond!, AddIsotropicBonds!, Lookup
 
     using LinearAlgebra, Logging
 

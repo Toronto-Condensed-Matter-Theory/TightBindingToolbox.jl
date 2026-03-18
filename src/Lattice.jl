@@ -4,8 +4,8 @@ module LatticeStruct
 
     using LinearAlgebra, Bijections
 
-    using ..TightBindingToolbox.Useful: Meshgrid
-    using ..TightBindingToolbox.UCell: Bond, UnitCell
+    using ..TightBindingToolkit.Useful: Meshgrid
+    using ..TightBindingToolkit.UCell: Bond, UnitCell
 
 
 @doc """

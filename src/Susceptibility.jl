@@ -1,12 +1,12 @@
 module suscep
     export Susceptibility , FindChi , FillChis!, FillRPAChis!, PerformRPA!, FindReducedChi, nF_factor, ResolvedQInteraction, ReduceChis!
 
-    using ..TightBindingToolbox.SpinMatrices:SpinMats
-    using ..TightBindingToolbox.Useful: DistFunction, SwitchKroneckerBasis, ImpIndices
-    using ..TightBindingToolbox.BZone:BZ, GetQIndex
-    using ..TightBindingToolbox.TBModel:Model
-    using ..TightBindingToolbox.Parameters:Param
-    using ..TightBindingToolbox.UCell:UnitCell
+    using ..TightBindingToolkit.SpinMatrices:SpinMats
+    using ..TightBindingToolkit.Useful: DistFunction, SwitchKroneckerBasis, ImpIndices
+    using ..TightBindingToolkit.BZone:BZ, GetQIndex
+    using ..TightBindingToolkit.TBModel:Model
+    using ..TightBindingToolkit.Parameters:Param
+    using ..TightBindingToolkit.UCell:UnitCell
 
 
     using LinearAlgebra, TensorCast, Tullio, Logging

@@ -1,7 +1,7 @@
-# TightBindingToolbox.Lattice
+# TightBindingToolkit.Lattice
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.LatticeStruct, TightBindingToolbox.DesignLattice]
+Modules = [TightBindingToolkit, TightBindingToolkit.LatticeStruct, TightBindingToolkit.DesignLattice]
 Private = false
 Pages   = ["Lattice.jl", "DesignLattice.jl"]
 ```
@@ -9,7 +9,7 @@ Pages   = ["Lattice.jl", "DesignLattice.jl"]
 ## Flux
 
 ```@autodocs
-Modules = [TightBindingToolbox.Flux]
+Modules = [TightBindingToolkit.Flux]
 Private = false
 Pages   = ["Flux.jl"]
 ```

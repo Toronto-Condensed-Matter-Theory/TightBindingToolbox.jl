@@ -1,7 +1,7 @@
-# TightBindingToolbox.Chern
+# TightBindingToolkit.Chern
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.Chern]
+Modules = [TightBindingToolkit, TightBindingToolkit.Chern]
 Private = false
 Pages   = ["Chern.jl"]
 ```
@@ -9,7 +9,7 @@ Pages   = ["Chern.jl"]
 ## Quantum Metric
 
 ```@autodocs
-Modules = [TightBindingToolbox.MetricTB]
+Modules = [TightBindingToolkit.MetricTB]
 Private = false
 Pages   = ["Metric.jl"]
 ```

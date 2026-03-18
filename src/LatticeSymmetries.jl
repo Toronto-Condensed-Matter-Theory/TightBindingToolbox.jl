@@ -3,10 +3,10 @@ module LatticeSymmetries
 
     using LinearAlgebra, StatsBase
 
-    using ..TightBindingToolbox.UCell: UnitCell
-    using ..TightBindingToolbox.LatticeStruct: Lattice
-    using ..TightBindingToolbox.LatHam: LatticeHamiltonian
-    using ..TightBindingToolbox.LatModel: LatticeModel
+    using ..TightBindingToolkit.UCell: UnitCell
+    using ..TightBindingToolkit.LatticeStruct: Lattice
+    using ..TightBindingToolkit.LatHam: LatticeHamiltonian
+    using ..TightBindingToolkit.LatModel: LatticeModel
 
 
     function Translations(lattice::Lattice{T} ; primitive::Int64, with_local::Bool = false) :: Matrix{ComplexF64} where {T}

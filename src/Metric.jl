@@ -4,12 +4,12 @@ using LinearAlgebra
 using LaTeXStrings
 using Plots
 
-using ..TightBindingToolbox.Hams: Hamiltonian, DiagonalizeHamiltonian!, GetVelocity!
-using ..TightBindingToolbox.BZone: BZ
-using ..TightBindingToolbox.Chern: FindLinks, FieldStrength, ChernNumber
-using ..TightBindingToolbox.UCell: UnitCell
-using ..TightBindingToolbox.Parameters: Param, CreateUnitCell!
-using ..TightBindingToolbox.Useful: GetAllOffsets
+using ..TightBindingToolkit.Hams: Hamiltonian, DiagonalizeHamiltonian!, GetVelocity!
+using ..TightBindingToolkit.BZone: BZ
+using ..TightBindingToolkit.Chern: FindLinks, FieldStrength, ChernNumber
+using ..TightBindingToolkit.UCell: UnitCell
+using ..TightBindingToolkit.Parameters: Param, CreateUnitCell!
+using ..TightBindingToolkit.Useful: GetAllOffsets
 
 export GeoTensor, Curvature, KuboChern, get_metric_measures, hexagon, plot_metric_data
 

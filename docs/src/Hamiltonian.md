@@ -1,7 +1,7 @@
-# TightBindingToolbox.Hamiltonian
+# TightBindingToolkit.Hamiltonian
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.Hams]
+Modules = [TightBindingToolkit, TightBindingToolkit.Hams]
 Private = false
 Pages   = ["Hamiltonian.jl"]
 ```
@@ -9,7 +9,7 @@ Pages   = ["Hamiltonian.jl"]
 ## Lattice Hamiltonian
 
 ```@autodocs
-Modules = [TightBindingToolbox.LatHam]
+Modules = [TightBindingToolkit.LatHam]
 Private = false
 Pages   = ["LatticeHamiltonian.jl"]
 ```

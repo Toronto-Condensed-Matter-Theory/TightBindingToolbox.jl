@@ -3,8 +3,8 @@ module BZone
 
     using LinearAlgebra, Logging
 
-    using ..TightBindingToolbox.Useful: Meshgrid, VecAngle, GetIndexPath
-    using ..TightBindingToolbox.UCell: UnitCell
+    using ..TightBindingToolkit.Useful: Meshgrid, VecAngle, GetIndexPath
+    using ..TightBindingToolkit.UCell: UnitCell
 
 
 @doc """

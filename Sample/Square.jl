@@ -1,4 +1,4 @@
-using LaTeXStrings, Plots, LinearAlgebra, TightBindingToolbox
+using LaTeXStrings, Plots, LinearAlgebra, TightBindingToolkit
 
 """
 The lattice primitive vector for a square lattice : a1 and a2.

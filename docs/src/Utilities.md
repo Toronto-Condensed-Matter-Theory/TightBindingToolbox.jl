@@ -3,7 +3,7 @@
 ## Useful Functions
 
 ```@autodocs
-Modules = [TightBindingToolbox.Useful]
+Modules = [TightBindingToolkit.Useful]
 Private = false
 Pages   = ["Useful.jl"]
 ```
@@ -11,7 +11,7 @@ Pages   = ["Useful.jl"]
 ## Spin Matrices
 
 ```@autodocs
-Modules = [TightBindingToolbox.SpinMatrices]
+Modules = [TightBindingToolkit.SpinMatrices]
 Private = false
 Pages   = ["SpinMats.jl"]
 ```

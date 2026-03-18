@@ -1,7 +1,7 @@
-# TightBindingToolbox.BdGModel
+# TightBindingToolkit.BdGModel
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.BdG]
+Modules = [TightBindingToolkit, TightBindingToolkit.BdG]
 Private = false
 Pages   = ["BdGModel.jl"]
 ```

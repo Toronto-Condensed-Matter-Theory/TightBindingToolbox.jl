@@ -4,8 +4,8 @@ module Flux
 
     using LinearAlgebra
 
-    using ..TightBindingToolbox.Useful: SegmentIntersection
-    using ..TightBindingToolbox.LatticeStruct: Lattice, FillLattice!
+    using ..TightBindingToolkit.Useful: SegmentIntersection
+    using ..TightBindingToolkit.LatticeStruct: Lattice, FillLattice!
 
 
 @doc """

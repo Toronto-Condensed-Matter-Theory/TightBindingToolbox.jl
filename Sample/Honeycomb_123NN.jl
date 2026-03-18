@@ -1,4 +1,4 @@
-using Plots, LaTeXStrings, TightBindingToolbox
+using Plots, LaTeXStrings, TightBindingToolkit
 
 a1  = [ 1/2 , sqrt(3)/2 ]
 a2  = [-1/2 , sqrt(3)/2 ]

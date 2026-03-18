@@ -1,4 +1,4 @@
-module TightBindingToolbox
+module TightBindingToolkit
 
 ####### Write your package code here.
 

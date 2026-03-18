@@ -1,10 +1,10 @@
 using Documenter
-using TightBindingToolbox
+using TightBindingToolkit
 
 makedocs(
     build       =   "build" ,
-    sitename    =   "TightBindingToolbox.jl"    ,
-    modules     =   [TightBindingToolbox, TightBindingToolbox.UCell, TightBindingToolbox.DesignUCell, TightBindingToolbox.ExpandUCell, TightBindingToolbox.Parameters, TightBindingToolbox.LatticeStruct, TightBindingToolbox.DesignLattice, TightBindingToolbox.BZone, TightBindingToolbox.Hams, TightBindingToolbox.TBModel, TightBindingToolbox.Chern, TightBindingToolbox.suscep, TightBindingToolbox.conduct]   ,
+    sitename    =   "TightBindingToolkit.jl"    ,
+    modules     =   [TightBindingToolkit, TightBindingToolkit.UCell, TightBindingToolkit.DesignUCell, TightBindingToolkit.ExpandUCell, TightBindingToolkit.Parameters, TightBindingToolkit.LatticeStruct, TightBindingToolkit.DesignLattice, TightBindingToolkit.BZone, TightBindingToolkit.Hams, TightBindingToolkit.TBModel, TightBindingToolkit.Chern, TightBindingToolkit.suscep, TightBindingToolkit.conduct]   ,
     pages = [
         "Introduction"              =>  "index.md",
         "Utilities"                 =>  "Utilities.md",
@@ -23,6 +23,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/andrewkhardy/TightBindingToolbox.jl",
+    repo = "github.com/andrewkhardy/TightBindingToolkit.jl",
     devbranch = "main"
 )

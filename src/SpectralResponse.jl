@@ -2,9 +2,9 @@ module SpecResponse
 
 using LinearAlgebra
 
-using ..TightBindingToolbox.BZone: BZ, GetQIndex
-using ..TightBindingToolbox.Hams: Hamiltonian
-using ..TightBindingToolbox.Useful: DistFunction
+using ..TightBindingToolkit.BZone: BZ, GetQIndex
+using ..TightBindingToolkit.Hams: Hamiltonian
+using ..TightBindingToolkit.Useful: DistFunction
 
 export spectral, response
 

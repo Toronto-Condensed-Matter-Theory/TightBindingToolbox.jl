@@ -1,7 +1,7 @@
-# TightBindingToolbox.conduct
+# TightBindingToolkit.conduct
 
 ```@autodocs
-Modules = [TightBindingToolbox, TightBindingToolbox.conduct]
+Modules = [TightBindingToolkit, TightBindingToolkit.conduct]
 Private = false
 Pages   = ["Conductivity.jl"]
 ```

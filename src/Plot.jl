@@ -3,15 +3,15 @@ module PlotTB
 
     using LinearAlgebra, LaTeXStrings, Plots
 
-    using ..TightBindingToolbox.Useful: GetAllOffsets
-    using ..TightBindingToolbox.SpinMatrices: SpinMats
-    using ..TightBindingToolbox.UCell:UnitCell
-    using ..TightBindingToolbox.DesignUCell:Lookup
-    using ..TightBindingToolbox.LatticeStruct: Lattice
-    using ..TightBindingToolbox.BZone:BZ, GetQIndex, GetBZPath, CombinedBZPath, ReduceQ
-    using ..TightBindingToolbox.Hams:Hamiltonian
-    using ..TightBindingToolbox.TBModel:Model
-    using ..TightBindingToolbox.BdG:BdGModel
+    using ..TightBindingToolkit.Useful: GetAllOffsets
+    using ..TightBindingToolkit.SpinMatrices: SpinMats
+    using ..TightBindingToolkit.UCell:UnitCell
+    using ..TightBindingToolkit.DesignUCell:Lookup
+    using ..TightBindingToolkit.LatticeStruct: Lattice
+    using ..TightBindingToolkit.BZone:BZ, GetQIndex, GetBZPath, CombinedBZPath, ReduceQ
+    using ..TightBindingToolkit.Hams:Hamiltonian
+    using ..TightBindingToolkit.TBModel:Model
+    using ..TightBindingToolkit.BdG:BdGModel
 
 
 @doc """

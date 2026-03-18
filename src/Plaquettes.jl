@@ -4,9 +4,9 @@ module Plaqs
 
     using LinearAlgebra, Bijections
 
-    using ..TightBindingToolbox.LatticeStruct: Lattice
-    using ..TightBindingToolbox.UCell:UnitCell
-    using ..TightBindingToolbox.DesignUCell: Lookup
+    using ..TightBindingToolkit.LatticeStruct: Lattice
+    using ..TightBindingToolkit.UCell:UnitCell
+    using ..TightBindingToolkit.DesignUCell: Lookup
 
 
     mutable struct Plaquette{T}

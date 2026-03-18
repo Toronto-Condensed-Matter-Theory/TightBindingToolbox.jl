@@ -1,6 +1,6 @@
 # TightBindingToobox.jl
 
-TightBindingToolbox.jl is a Julia package meant for constructing, and obtaining useful properties of generic tight-binding models. It supports any lattice structure, with any user-defined bonds on that lattice. It also has support for any spin of the particle hopping on the lattice.
+TightBindingToolkit.jl is a Julia package meant for constructing, and obtaining useful properties of generic tight-binding models. It supports any lattice structure, with any user-defined bonds on that lattice. It also has support for any spin of the particle hopping on the lattice.
 
 Currently supported :
 * Custom Unit Cell Construction. (v1.3) : now also supports construction in dimensions upto d=3.

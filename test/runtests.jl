@@ -1,8 +1,8 @@
-using TightBindingToolbox
+using TightBindingToolkit
 using LinearAlgebra
 using Test
 
-@testset "TightBindingToolbox.jl" begin
+@testset "TightBindingToolkit.jl" begin
 
     @testset "SpinMats" begin
         S = SpinMats(1//2)

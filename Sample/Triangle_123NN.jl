@@ -1,4 +1,4 @@
-using Plots, LaTeXStrings, TightBindingToolbox
+using Plots, LaTeXStrings, TightBindingToolkit
 
 """
 This script sets up a simple triangular lattice with first, second, and third neighbour hoppings.

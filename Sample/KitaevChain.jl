@@ -1,4 +1,4 @@
-using Plots, LaTeXStrings, TightBindingToolbox
+using Plots, LaTeXStrings, TightBindingToolkit
 
 """
 This script sets up the famous boxaev chain in 1d.
